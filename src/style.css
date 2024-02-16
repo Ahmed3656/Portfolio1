@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ///////////////////////////////////// header ///////////////////////////////////// */
+
+.portfolio-title {
+  cursor: default;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header-button {
+  transition: 0.5s !important;
+}
+
+.header-item {
+  margin: 0 20px;
+}
+
+.header-icon {
+  position: relative;
+
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+
+  height: 40px;
+  width: 40px;
+  padding: 8.5px 5px 5px 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+
+  margin: 0 10px;
+  transition: 0.5s;
+}
+
+.header-icon::after {
+  position: absolute;
+  content: "";
+  z-index: -1 ;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 0;
+  height: 0;
+
+  background-color: #fff;
+  color: #fff !important;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.header-icon:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+.header-icon:hover {
+  color: #000;
+}
+
+/* ///////////////////////////////////// welcome ///////////////////////////////////// */
+
+.welcome {
+  position: relative;
+
+  background-image: url(images/background2.jpg);
+  background-size: cover;
+  height: 150vh;
+  width: 100%;
+}
+
+.welcome-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.name {
+  color: #fff;
+}
+
+.welcome-name {
+  font-size: 25px;
+  font-weight: 600;
+
+  border: 0.25px solid #fff;
+  width: fit-content;
+  padding: 3px 7px;
+
+  background-image: linear-gradient(to right, #b02e63, #6a0e61, #1c0119);
+}
+
+.name h1 {
+  font-size: 68px;
+}
+
+#dynamic-text {
+  border-right: 4px solid #fff;
+  animation: blink .53s step-end infinite;
+}
+
+@keyframes blink {
+  50% { border-color: transparent;}
+}
+
+.image .welcome-image {
+  animation: bounce 3s linear infinite;
+}
+
+@keyframes bounce {
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-15px);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  75%{
+    transform: translateY(15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+@media (max-width:758px) {
+  .image {
+    margin-top: 50px;
+  }
+
+  .welcome-content {
+    top: 45%;
+  }
+}
+
+/* ///////////////////////////////////// skills ///////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
