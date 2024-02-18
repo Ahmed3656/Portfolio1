@@ -8,9 +8,9 @@
         if (charIndex < myText[textIndex].length) {
             dynamicText.innerHTML += myText[textIndex].charAt(charIndex);
             charIndex++;
-            setTimeout(typeWriter, 100); // Typing speed
+            setTimeout(typeWriter, 100);
         } else {
-            setTimeout(eraseText, 1000); // Wait before erasing
+            setTimeout(eraseText, 1000);
         }
     }
 
@@ -18,12 +18,12 @@
         if (charIndex >= 0) {
             dynamicText.innerHTML = myText[textIndex].substring(0, charIndex);
             charIndex--;
-            setTimeout(eraseText, 50); // Erasing speed
+            setTimeout(eraseText, 50);
         } else {
             textIndex = (textIndex + 1) % myText.length;
-            setTimeout(typeWriter, 500); // Wait before typing next text
+            setTimeout(typeWriter, 500);
         }
     }
 
-    typeWriter(); // Start typing initially
+    typeWriter();
 

@@ -7,12 +7,18 @@ import './all.css'
 
 import Header from "./Header";
 import Welcome from "./Welcome";
+import Skills from "./Skills";
+import Projects from "./Projects";
 
 function App() {
   return (
     <BrowserRouter>
       <Header/>
-      <Welcome/>
+      <div className="main-container">  
+        <Welcome/>
+        <Skills/>
+      </div>
+      <Projects/>
     </BrowserRouter>
   );
 }

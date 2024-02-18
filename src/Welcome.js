@@ -14,7 +14,6 @@ function Welcome() {
                     charIndex++;
                     setTimeout(type, 200);
                 } else {
-                    dynamicText.classList.add('blink'); // Add blink animation class
                     setTimeout(erase, 1400);
                 }
             }
@@ -25,7 +24,6 @@ function Welcome() {
                     charIndex--;
                     setTimeout(erase, 50);
                 } else {
-                    dynamicText.classList.add('blink'); // Add blink animation class
                     textIndex = (textIndex + 1) % myText.length;
                     setTimeout(type, 500);
                 }

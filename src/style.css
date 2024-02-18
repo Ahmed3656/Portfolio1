@@ -66,18 +66,24 @@
 
 /* ///////////////////////////////////// welcome ///////////////////////////////////// */
 
+.main-container {
+  background-image: url(images/background2.jpg);
+  background-size: cover;
+
+  height: 170vh;
+  width: 100%;
+}
+
 .welcome {
   position: relative;
 
-  background-image: url(images/background2.jpg);
-  background-size: cover;
-  height: 150vh;
+  height: 100vh;
   width: 100%;
 }
 
 .welcome-content {
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -104,7 +110,7 @@
 
 #dynamic-text {
   border-right: 4px solid #fff;
-  animation: blink .53s step-end infinite;
+  animation: blink 1.06s step-end infinite;
 }
 
 @keyframes blink {
@@ -139,66 +145,48 @@
   }
 
   .welcome-content {
-    top: 45%;
+    top: 60%;
   }
 }
 
 /* ///////////////////////////////////// skills ///////////////////////////////////// */
 
+.skills-container {
+  border-radius: 15px;
+}
 
+.skills-title {
+  font-size: 50px;
+  padding: 30px 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .App {
+.skill-slide {
+  color: #fff;
+  margin: 80px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.skill-slide div {
+  background-image: linear-gradient(to right, #161868, #214587, #1e98a8);
+  border-radius: 50%;
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.skill-slide h2 {
+  background-color: #212529;
+  margin: auto;
+  width: 175px;
+  height: 175px;
+  line-height: 175px;
+  border-radius: 50%;
+}
+
+@media (max-width:991px) {
+  .skills-container{
+    margin-top: 150px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+/* ///////////////////////////////////// projects ///////////////////////////////////// */
