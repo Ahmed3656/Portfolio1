@@ -8,6 +8,7 @@ import './all.css'
 import Header from "./Header";
 import Welcome from "./Welcome";
 import Skills from "./Skills";
+import Profile from "./Profile";
 import Projects from "./Projects";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Welcome/>
         <Skills/>
       </div>
+      <Profile/>
       <Projects/>
     </BrowserRouter>
   );

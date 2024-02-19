@@ -25,8 +25,8 @@ function Header(){
                     <div className="d-flex flex-column flex-lg-row">
                         <button className="header-button btn btn-outline-light mb-3 mb-lg-0 ms-lg-3 order-lg-2 ">Let's Connect</button>
                         <div className="order-lg-1 m-auto">
-                            <a href="#" className="header-icon-link"><i className="fab fa-linkedin-in header-icon"></i></a>
-                            <a href="#" className="header-icon-link"><i className="fab fa-github header-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/ahmed-amr3656/" className="header-icon-link" target="_blank"><i className="fab fa-linkedin-in header-icon"></i></a>
+                            <a href="https://github.com/Ahmed3656" className="header-icon-link" target="_blank"><i className="fab fa-github header-icon"></i></a>
                             <a href="#" className="header-icon-link"><i className="fab fa-facebook-f header-icon"></i></a>
                         </div>
                     </div>
