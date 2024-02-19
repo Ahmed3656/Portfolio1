@@ -10,6 +10,7 @@ import Welcome from "./Welcome";
 import Skills from "./Skills";
 import Profile from "./Profile";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       </div>
       <Profile/>
       <Projects/>
+      <Contact/>
     </BrowserRouter>
   );
 }

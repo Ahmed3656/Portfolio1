@@ -1,9 +1,9 @@
 import React from "react";
 
-function GetInTouch(){
+function AboutMe() {
     return(
         <></>
     )
 }
 
-export default GetInTouch
+export default AboutMe

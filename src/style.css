@@ -101,7 +101,7 @@
   width: fit-content;
   padding: 3px 7px;
 
-  background-image: linear-gradient(to right, #b02e63, #6a0e61, #1c0119);
+  background-image: linear-gradient(to right, #c93f76, #911684, #1c49b0);
 }
 
 .name h1 {
@@ -187,6 +187,10 @@
   .skills-container{
     margin-top: 150px;
   }
+
+  .main-container {
+    height: 200vh;
+  }
 }
 
 /* ///////////////////////////////////// profile ///////////////////////////////////// */
@@ -234,7 +238,7 @@
   width: 0;
   height: 100%;
 
-  background-image: linear-gradient(to right, #c7346f, #911684, #2f062a);
+  background-image: linear-gradient(to right, #c93f76, #911684, #1c49b0);
   opacity: 0;
   transition: 0.2s;
 }
@@ -259,6 +263,12 @@
   height: 100%;
 
   border-radius: 0 20px 20px 0;
+}
+
+@media (max-width:991px) {
+  .profile-btns {
+    width: 100px;
+  }
 }
 
 /* ///////////////////////////////////// projects ///////////////////////////////////// */
@@ -307,4 +317,72 @@
 
 .img-overlay-content a {
   color: #1e98a8;
+}
+
+/* ///////////////////////////////////// contact ///////////////////////////////////// */
+
+.contact-container {
+  background-image: linear-gradient(to right, #c93f76, #911684, #1c49b0);
+}
+
+.contact-info {
+  padding-top:50px;
+}
+
+.contact-inputs {
+  margin: auto;
+}
+
+.contact-input {
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  outline: none;
+
+  width: 48%;
+  margin: 10px 1%;
+  
+  background-color: transparent;
+}
+
+.contact-input::placeholder {
+  font-weight: 600;
+  color: #fff;
+}
+
+.contact-input:focus {
+  background-color: #fff;
+}
+
+.contact-input:focus::placeholder {
+  color: #5f5f5f;
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* Hide spinners for Chrome and Safari */
+  appearance: none; /* Hide spinners for other browsers */
+}
+
+.contact-msg {
+  border-radius: 15px;
+  border: 1px solid #fff;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  height: 200px;
+  padding: 5px;
+}
+
+.contact-msg::placeholder {
+  color: #fff;
+  font-weight: 600;
+}
+
+.contact-msg:focus {
+  background-color: #fff;
+}
+
+.contact-msg:focus::placeholder {
+  color: #5f5f5f;
 }
