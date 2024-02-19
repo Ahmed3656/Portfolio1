@@ -15,6 +15,7 @@ import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 
 function App() {
+
   return (
     <BrowserRouter>
       <Header/>
@@ -23,8 +24,10 @@ function App() {
         <Skills/>
       </div>
       <Profile/>
-      <AboutMe/>
-      <Projects/>
+      <Routes>
+        <Route path="AboutMe" element={<AboutMe/>}/>
+        <Route path="Projects" element={<Projects/>}/>
+      </Routes>
       <Contact/>
       <Footer/>
     </BrowserRouter>

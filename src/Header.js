@@ -19,7 +19,7 @@ function Header(){
                         <a className="nav-link text-light" href="#">Skills</a>
                       </li>
                       <li className="header-item nav-item">
-                        <a className="nav-link text-light" href="#">Projects</a>
+                        <a className="nav-link text-light" to="#projects" href="#">Projects</a>
                       </li>
                     </ul>
                     <div className="d-flex flex-column flex-lg-row">
