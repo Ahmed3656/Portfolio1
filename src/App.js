@@ -11,6 +11,8 @@ import Skills from "./Skills";
 import Profile from "./Profile";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import AboutMe from "./AboutMe";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
         <Skills/>
       </div>
       <Profile/>
+      <AboutMe/>
       <Projects/>
       <Contact/>
+      <Footer/>
     </BrowserRouter>
   );
 }
