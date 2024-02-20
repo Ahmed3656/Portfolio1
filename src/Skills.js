@@ -12,7 +12,7 @@ function Skills() {
     const isSmallScreen = window.matchMedia("(max-width: 991px)").matches;
 
     return (
-        <div className="skills-container container bg-dark">
+        <div id="skills" className="skills-container container bg-dark">
             <h2 className="skills-title text-center text-light">Skills</h2>
             <Swiper
                 modules={[Navigation]}

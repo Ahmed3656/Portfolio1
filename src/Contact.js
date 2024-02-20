@@ -12,12 +12,19 @@ function Contact(){
                     <div className="contact-inputs d-flex row">
                         <input type="text" className="contact-input" placeholder="First Name"></input>
                         <input type="text" className="contact-input" placeholder="Last Name"></input>
-                        <input type="email" className="contact-input" placeholder="Email"></input>
+                        <input type="text" className="contact-input" placeholder="Subject"></input>
                         <input type="number" className="contact-input no-spinner" placeholder="Phone No."></input>
                     </div>
                     <textarea className="contact-msg" placeholder="Message"></textarea>
                 </form>
             </div>
+        </div>
+    </div>
+    <div className="submit bg-light d-flex justify-content-around align-items-center p-3">
+        <h3 className="col-lg-6">Submit message here</h3>
+        <div className="contact-submit-container col-lg-6">
+        <input type="email" className="contact-submit" placeholder="Email"></input>
+        <button className="contact-submit-btn">Submit</button>
         </div>
     </div>
 </div>

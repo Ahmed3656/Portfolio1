@@ -36,7 +36,7 @@ function Welcome() {
     }, []);
 
     return (
-        <div className="welcome container-fluid">
+        <div id="home" className="welcome container-fluid">
             <div className="welcome-content container d-md-flex">
                 <div className="name col-md-6 col-sm-12 col-12 d-flex flex-column">
                     <p className="welcome-name">Welcome to my website</p>

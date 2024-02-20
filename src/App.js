@@ -1,5 +1,5 @@
-import { React, ReactDOM } from "react";
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import { React } from "react";
+import {BrowserRouter, Routes, Route, useLocation} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './style.css'
@@ -15,21 +15,21 @@ import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 
 function App() {
-
+  
   return (
     <BrowserRouter>
-      <Header/>
+      <Header />
       <div className="main-container">  
-        <Welcome/>
-        <Skills/>
+        <Welcome />
+        <Skills />
       </div>
-      <Profile/>
+      <Profile />
       <Routes>
-        <Route path="AboutMe" element={<AboutMe/>}/>
-        <Route path="Projects" element={<Projects/>}/>
+        <Route path="AboutMe" element={<AboutMe />}/>
+        <Route path="Projects" element={<Projects />}/>
       </Routes>
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
     </BrowserRouter>
   );
 }
