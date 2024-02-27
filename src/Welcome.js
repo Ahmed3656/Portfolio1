@@ -46,6 +46,17 @@ function Welcome() {
                     <img src={require('./images/astro1.png')} className="welcome-image" draggable="false" alt="Welcome" />
                 </div>
             </div>
+
+            {/* <div className="meteorites">
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+                <img src={require('./images/comet.png')}></img>
+            </div> */} {/*animated meteorites*/}
         </div>
     );
 }
