@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d1318ff1.css",
-    "main.js": "/Portfolio/static/js/main.d1f5642c.js",
+    "main.css": "/Portfolio/static/css/main.d47a6ed7.css",
+    "main.js": "/Portfolio/static/js/main.478552fd.js",
     "static/js/592.38caed91.chunk.js": "/Portfolio/static/js/592.38caed91.chunk.js",
     "static/media/project3.png": "/Portfolio/static/media/project3.57228635f0a0fbf54001.png",
     "static/media/background2.jpg": "/Portfolio/static/media/background2.d630a81e697411ff383b.jpg",
@@ -31,6 +31,7 @@
     "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
     "static/media/comet.png": "/Portfolio/static/media/comet.be000feabfb92a4dfec5.png",
     "static/media/astr2.jpg": "/Portfolio/static/media/astr2.99deec93fdb8c7d5c528.jpg",
+    "static/media/project6.png": "/Portfolio/static/media/project6.40a6d6421bb637cd168a.png",
     "static/media/fa-regular-400.eot": "/Portfolio/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/astro1.jpg": "/Portfolio/static/media/astro1.f7b2ff624c59431b52e9.jpg",
@@ -38,12 +39,12 @@
     "static/media/index.cjs": "/Portfolio/static/media/index.671993152dc0f6e0b17a.cjs",
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.d1318ff1.css.map": "/Portfolio/static/css/main.d1318ff1.css.map",
-    "main.d1f5642c.js.map": "/Portfolio/static/js/main.d1f5642c.js.map",
+    "main.d47a6ed7.css.map": "/Portfolio/static/css/main.d47a6ed7.css.map",
+    "main.478552fd.js.map": "/Portfolio/static/js/main.478552fd.js.map",
     "592.38caed91.chunk.js.map": "/Portfolio/static/js/592.38caed91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1318ff1.css",
-    "static/js/main.d1f5642c.js"
+    "static/css/main.d47a6ed7.css",
+    "static/js/main.478552fd.js"
   ]
 }
