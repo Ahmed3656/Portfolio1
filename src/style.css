@@ -260,7 +260,7 @@
     height: 230vh !important;
   }
   #skills{
-    margin-top: 150% !important;
+    margin-top: 120% !important;
   }
   .welcome-content .image {
     margin-bottom: 200px;
@@ -336,12 +336,6 @@
 
   .main-container {
     height: 200vh;
-  }
-}
-
-@media (max-width:475px) {
-  .skills-container {
-    margin-top: 275px;
   }
 }
 

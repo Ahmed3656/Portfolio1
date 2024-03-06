@@ -7,7 +7,7 @@ import 'swiper/swiper-bundle.css'
 
 
 function Skills() {
-    const skills = ["C++", "HTML", "CSS", "Bootstrap", "JavaScript", "React", "Java", "SQL"];
+    const skills = ["C++", "HTML", "CSS", "Bootstrap", "JavaScript", "React", "Java", "SQL", "Python"];
 
     const isSmallScreen = window.matchMedia("(max-width: 991px)").matches;
 

@@ -25,8 +25,9 @@ function App() {
       </div>
       <Profile />
       <Routes>
-        <Route path="AboutMe" element={<AboutMe />}/>
-        <Route path="Projects" element={<Projects />}/>
+        <Route index element={<Projects />}/>
+        <Route path="/AboutMe" element={<AboutMe />}/>
+        <Route path="/Projects" element={<Projects />}/>
       </Routes>
       <Contact />
       <Footer />

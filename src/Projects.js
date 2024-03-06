@@ -3,16 +3,28 @@ import React from "react";
 function Projects(){
     const projects = [
         {
-            title:"Elite Kicks",
-            description:"An e-commerce website, built with JavaScript",
-            image:"./images/project4.png",
-            url:"https://ahmed3656.github.io/EliteKicks/index.html"
+            title:"Laptop Zone",
+            description:"An e-commerce website, built with React.js",
+            image:"./images/project7.png",
+            url:"https://laptop-zone-website.vercel.app/"
         },
         {
             title:"Portfolio",
             description:"My personal portfolio site, built with React.js",
             image:"./images/project5.png",
             url:"https://ahmed3656.github.io/Portfolio/"
+        },
+        {
+            title:"To-Do List",
+            description:"Simple React.js to-do app for effective task tracking.",
+            image:"./images/project6.png",
+            url:"https://ahmed3656.github.io/To-Do-List/"
+        },
+        {
+            title:"Elite Kicks",
+            description:"An e-commerce website, built with JavaScript",
+            image:"./images/project4.png",
+            url:"https://ahmed3656.github.io/EliteKicks/index.html"
         },
         {
             title:"Welcome to Egypt",
