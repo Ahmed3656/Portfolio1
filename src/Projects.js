@@ -3,6 +3,12 @@ import React from "react";
 function Projects(){
     const projects = [
         {
+            title:"Gemini Clone",
+            description:"A React project inspired by Gemini",
+            image:"./images/project8.png",
+            url:"https://gemini-clone-blond.vercel.app/"
+        },
+        {
             title:"Laptop Zone",
             description:"An e-commerce website, built with React.js",
             image:"./images/project7.png",
